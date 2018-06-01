@@ -1,0 +1,38 @@
+
+配置键盘 
+	切换输入法按键设置都改成shift
+git     安装，拉取cyyfile项目，获取各种资料
+	sudo apt install git
+	cd 桌面&&mkdir cyy
+	git init 
+	git remote add origin  https://github.com/1cao2mu/CYYFILE.git
+	git pull
+	git pull origin master
+火狐浏览器
+	设置中文：
+    sudo apt install firefox
+	sudo apt-get install firefox-locale-zh-hans
+	导入书签
+chrome浏览器
+	安装
+	sudo wget http://www.linuxidc.com/files/repo/google-chrome.list -P /etc/apt/sources.list.d/
+	wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
+	sudo apt-get update
+	sudo apt-get install google-chrome-stable
+	/usr/bin/google-chrome-stable
+	锁定桌面图标
+	导入书签
+vsode
+	下载地址 https://code.visualstudio.com/docs/?dv=linux64_deb
+	安装插件 
+	3024Night Theme ,Auto Close Tag , AutoFileName , Chinese... , Eslint , 
+	GitLens... , IntelliJ IDEA... , React Native Tools ,vscode-fileheader,vscode-icons
+	复制setting vscode.json
+
+	 	
+
+	
+  
+
+
+
