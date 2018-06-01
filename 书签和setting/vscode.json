@@ -1,0 +1,40 @@
+{
+    "editor.fontSize": 14,
+    "editor.suggestFontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "markdown.preview.fontSize": 14,
+    "javascript.validate.enable": true,
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.wordWrap": "on",
+    "window.zoomLevel": 1,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "3024Night",
+    "files.autoSave": "afterDelay",
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "extensions.ignoreRecommendations": true,
+    "workbench.panel.location": "bottom",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "git.autofetch": true,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "gitlens.keymap": "alternate",
+    "fileheader.Author": "cyy",
+    "fileheader.LastModifiedBy": "cyy",
+    "explorer.confirmDelete": false,
+    "gitlens.historyExplorer.enabled": true
+}
