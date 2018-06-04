@@ -85,6 +85,11 @@ wps替代libreOffice
 	sudo mkfontdir
 	sudo fc-cache
 	sudo apt-get remove libreoffice-common
+git保存密码
+	gedit .git-credentials
+	https://{username}：{password}@github.com
+	git config --global credential.helper store
+
 
 
 
