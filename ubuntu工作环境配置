@@ -89,6 +89,41 @@ git保存密码
 	gedit .git-credentials
 	https://{username}：{password}@github.com
 	git config --global credential.helper store
+qq安装
+	#安装32位库的支持
+	sudo dpkg --add-architecture i386  
+	sudo apt-get update  
+	sudo apt-get install lib32z1 lib32ncurses5
+	#安装CrossOver
+	sudo dpkg -i crossover-15_15.0.3-1_all.deb
+	sudo dpkg -i crossover-15_15.0.3-1_all-free.deb
+	sudo dpkg -i deepin-crossover-helper_1.0deepin0_all.deb
+	#如果中途出现依赖问题
+	sudo apt-get install -f
+	打开corvercoss两次
+
+	sudo dpkg -i apps.com.qq.im_8.1.17255deepin11_i386.deb
+
+	#***
+	mv /opt/cxoffice/lib/wine/winewrapper.exe.so /opt/cxoffice/lib/wine/winewrapper.exe.so.bak
+	cp winewrapper.exe.so /opt/cxoffice/lib/wine/
+	#设置字体
+	cp simsun.ttf /opt/cxoffice/share/wine/fonts
+	mv /opt/cxoffice/share/wine/fonts/ume-ui-gothic.ttf /opt/cxoffice/share/wine/fonts/ume-ui-gothic.ttf.bak
+
+	sudo gedit /usr/bin/killqq
+	#内容如下
+	ps aux|grep -v grep|grep wine|cut -c 9-15|xargs kill   
+	ps aux|grep -v grep|grep QQ|cut -c 9-15|xargs kill   
+	ps aux|grep -v grep|grep qq|cut -c 9-15|xargs kill   
+	pkill  plugplay.exe  
+	pkill  explorer.exe  
+	pkill  services.exe 
+	#赋予执行权限
+	sudo chmod 777 /usr/bin/killqq
+
+	
+	
 
 
 
