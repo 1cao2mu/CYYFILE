@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name= AS
+comment= android studio
+Exec=/home/cyy/as/bin/studio.sh
+Icon=/home/cyy/as/bin/studio.png
+Terminal=false
+Type=Application
