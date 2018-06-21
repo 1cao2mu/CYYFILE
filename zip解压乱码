@@ -1,0 +1,6 @@
+安装7-zip和convmv：
+sudo apt-get install convmv p7zip-full
+1
+解压zip文件：
+LANG=C 7z x 你的zip文件名
+convmv -f gbk -t utf8 -r --notest *
